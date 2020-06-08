@@ -1,0 +1,12 @@
+[profile.release]
+opt-level = "z"
+panic = "abort"
+
+[workspace]
+    members = [
+        "rusb",
+        "test-rusb",
+    ]
+
+
+

@@ -1,0 +1,6 @@
+[package]
+name = "test-rusb"
+version = "0.1.0"
+
+[dependencies]
+rusb = {path = "../rusb"}
